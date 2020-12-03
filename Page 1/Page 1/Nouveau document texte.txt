@@ -1,0 +1,36 @@
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex 
+     style="box-shadow: -1px 13px 5px -2px rgba(0,0,0,0.16);">
+   
+  
+     <div class="col-sm-7">
+      <img class="navbar-brand" src="Logo.png" width="150px">
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+    </div>
+    
+ 
+    <div class="col-sm-5">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto d-flex">
+          <li class="nav-item mr-auto p-2 ">
+            <a class="nav-link" href="#">Acceuil</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#espa">Notre espace</a>
+          </li>
+
+          <li class="nav-item  p-2 ">
+            <a class="nav-link" href="#serv">Nos Services</a>
+          </li>
+
+          <li class="nav-item  p-2">
+            <a class="nav-link" href="#training">Formation</a>
+          </li>
+
+          <li class="nav-item p-2 ">
+            <a class="nav-link" href="#cont">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>

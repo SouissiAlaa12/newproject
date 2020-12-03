@@ -1,0 +1,62 @@
+body, html {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-size: 19px;
+    position: relative;
+    font-family: Roboto, sans-serif;
+}
+.logo {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    
+}
+
+#entreprise, #etudiant {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    min-height: 100vh;
+    
+}
+
+
+#entreprise {
+    background: #dae4ff;
+}
+
+#etudiant {
+    background: #36f0f0;
+
+}
+
+#entreprise a , #etudiant a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    background: #637cec;
+    border-radius: 4px;
+}
+
+#entreprise:hover {
+    flex-grow: 3;
+    background-color: #5A1D7E;
+}
+
+#etudiant:hover {
+    flex-grow: 3;
+    background-color: #404958;
+}
